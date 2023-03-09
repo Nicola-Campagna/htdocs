@@ -9,7 +9,25 @@
 </head>
 
 <body>
+    <div>
+        <form action="./form.php" method="POST">
+            <!-- textarea -->
+            <div>
+                <label for="message">MESSAGGIO:</label> <br>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
 
+
+            <!-- Parola da censurare -->
+            <div>
+                <label for="badwords">Parola da censurare:</label> <br>
+                <input type="text" id="badwords" name="badwords">
+            </div>
+
+            <button>Invia Messaggio</button>
+
+        </form>
+    </div>
 </body>
 
 </html>

@@ -7,6 +7,10 @@
     <title>PHP FORM</title>
 </head>
 <body>
-    
+<p>
+  <?= $_POST['message'] ?>
+</p>
+
+
 </body>
 </html>
