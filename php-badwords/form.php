@@ -10,9 +10,18 @@
 <body>
     
     <?php
+
+    // messaggio completo
 $message=$_POST['message'];
 echo $message;
-  echo ' '.strlen($message).' caratteri' ;
+  echo ' '.strlen($message).' caratteri ' ;
+
+
+//   messaggio con la parola censurata in ***
+$badword=$_POST['badwords'];
+$message_replace=str_replace($badword,"***",$message);
+echo $message_replace;
+
   ?>
 
 
