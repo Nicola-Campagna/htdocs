@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,18 @@
     <title>PHP FORM</title>
 </head>
 <body>
-<p>
-  <?= $_POST['message'] ?>
-</p>
+    
+    <?php
+$message=$_POST['message'];
+echo $message;
+  echo ' '.strlen($message).' caratteri' ;
+  ?>
+
+
+
+  
+  
+  
 
 
 </body>
