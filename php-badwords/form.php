@@ -21,6 +21,8 @@ echo $message;
 $badword=$_POST['badwords'];
 $message_replace=str_replace($badword,"***",$message);
 echo $message_replace;
+echo ' '.strlen($message_replace).' caratteri ' ;
+
 
   ?>
 
